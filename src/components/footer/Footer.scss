@@ -1,0 +1,44 @@
+@mixin tablet {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+.footer {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #edede9;
+
+    .social {
+        text-align: center;
+
+        .icon {
+            font-size: 2rem;
+            margin: 2rem 3rem;
+            color: #111;
+
+            @include tablet {
+                margin: 1rem;
+            }
+        }
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.2rem;
+
+        .col {
+            margin: auto;
+
+            h3 {
+                margin: .8rem 0;
+            }
+
+            p {
+                margin: .4rem 0;
+                font-size: 12px;
+            }
+        }
+    }
+}

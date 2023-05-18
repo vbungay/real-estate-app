@@ -30,7 +30,7 @@ const Featured = () => {
                 <div className="span-3 img-details">
                     <div className="top">
                         <h2>
-                            123 Adelaide St. London, ON
+                            13 Queens, Toronto, ON
                         </h2>
                         <p className="price">
                             $1,002,300
@@ -90,7 +90,7 @@ const Featured = () => {
                 <div className="span-3 img-details order-6">
                     <div className="top">
                         <h2>
-                            123 Adelaide St. London, ON
+                            12 Adelaide, London, ON
                         </h2>
                         <p className="price">
                             $1,002,300
@@ -113,7 +113,7 @@ const Featured = () => {
                                 <p>500</p>
                             </div>
                             <div className="info">
-                                <p className="bold">Est Payment:</p>
+                                <p className="bold">Payment:</p>
                                 <p>$10,000/mo</p>
                             </div>
                         </div>
